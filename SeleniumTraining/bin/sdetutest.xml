@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SDEt_university test Suites" parallel="false">
+  <test name="Smoke Test: Homepage">
+    <classes>
+      <class name="smoketests.ATagsTest"/>
+      <class  name ="smoketests.LoginPresent"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Smoke Test: Login">
+    <classes>
+      <class name="smoketests.ATagsTest"/>
+      <class  name ="smoketests.LoginPresent"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
